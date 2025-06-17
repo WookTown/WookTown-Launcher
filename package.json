@@ -5,7 +5,9 @@
     "description": "Launcher Mincraft pour le serveur WookTown",
     "main": "src/app.js",
     "author": {
-        "name": "Taaj"
+        "name": "Taaj, Inc.",
+        "email": "contact@wooktown.fr",
+        "url": "https://github.com/LaMano"
     },
     "url": "http://45.140.165.143",
     "scripts": {
@@ -37,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/WookTown/WookTown-Launcher.git"
+        "url": "git+https://github.com/WookTown/WookTown-Launcher"
     }
 }
