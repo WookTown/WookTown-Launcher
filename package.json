@@ -1,7 +1,7 @@
 {
     "name": "WookTown-Launcher",
     "preductname": "WookTown Launcher",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Launcher Mincraft pour le serveur WookTown",
     "main": "src/app.js",
     "author": {
