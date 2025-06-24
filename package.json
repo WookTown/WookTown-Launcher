@@ -1,7 +1,7 @@
 {
     "name": "WookTown-Launcher",
     "preductname": "WookTown Launcher",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Launcher Mincraft pour le serveur WookTown",
     "main": "src/app.js",
     "author": {
@@ -9,7 +9,7 @@
         "email": "contact@wooktown.fr",
         "url": "https://github.com/LaMano"
     },
-    "url": "http://45.140.165.143",
+    "url": "http://45.140.164.221",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
