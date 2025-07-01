@@ -1,20 +1,20 @@
 {
-    "name": "WookTown-Launcher",
-    "preductname": "WookTown Launcher",
-    "version": "1.0.6",
-    "description": "Launcher Mincraft pour le serveur WookTown",
+    "name": "HookTown-Launcher",
+    "preductname": "HookTown Launcher",
+    "version": "1.0.7",
+    "description": "Launcher Mincraft pour le serveur HookTown",
     "main": "src/app.js",
     "author": {
         "name": "Taaj, Inc.",
-        "email": "contact@wooktown.fr",
+        "email": "contact@HookTown.fr",
         "url": "https://github.com/LaMano"
     },
-    "url": "http://45.140.164.221",
+    "url": "http://5.42.158.69",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/WookTown/WookTown-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/HookTown/HookTown-Launcher/master/src/assets/images/icon.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/WookTown/WookTown-Launcher.git"
+        "url": "git+https://github.com/HookTown/HookTown-Launcher.git"
     }
 }
