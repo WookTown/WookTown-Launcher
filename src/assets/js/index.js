@@ -32,7 +32,7 @@ class Splash {
         let splashes = [
             { "message": "Minimum 30joueurs pour la Saison 3.", "author": "Taaj" },
             { "message": "On me surnomme l'oreille a la réunion", "author": "Vapz" },
-            { "message": "L.A M.A.N.O Rien a te-gra, Sexy womannn", "author": "Thémis" }
+            { "message": "Dans la boîte 13 y'en a des centaines", "author": "Thémis" }
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
