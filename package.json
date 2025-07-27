@@ -1,7 +1,7 @@
 {
     "name": "HookTown-Launcher",
     "preductname": "HookTown Launcher",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "Launcher Mincraft pour le serveur HookTown",
     "main": "src/app.js",
     "author": {
