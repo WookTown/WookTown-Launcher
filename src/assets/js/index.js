@@ -30,9 +30,9 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "J'adore le Oasis Framboise.", "author": "Taaj" },
-            { "message": "Un nuage est passé entre nous.", "author": "DStresse" },
-            { "message": "On me surnomme l'oreille a la réunion", "author": "Thémis" }
+            { "message": "Minimum 30joueurs pour la Saison 3.", "author": "Taaj" },
+            { "message": "On me surnomme l'oreille a la réunion", "author": "DStresse" },
+            { "message": "L.A M.A.N.O Rien a te-gra, Sexy womannn", "author": "Thémis" }
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
